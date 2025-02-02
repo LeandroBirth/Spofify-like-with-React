@@ -7,6 +7,7 @@ A Spotify clone application built with React, developed as part of the Alura Fro
 
 This application serves as a learning tool for front-end development, specifically focusing on React implementation. It demonstrates fundamental concepts of modern web development while mimicking the familiar Spotify interface.
 
+![image](https://github.com/user-attachments/assets/d67d9966-9b59-4886-8587-3577eeddf611)
 
 ## Prerequisites
 
