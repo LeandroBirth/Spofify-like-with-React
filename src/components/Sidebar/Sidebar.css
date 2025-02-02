@@ -1,0 +1,214 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0.75rem;
+    width: 18.75rem;
+}
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 0.5rem;
+    padding: 1rem 0 0 1rem;
+}
+
+.sidebar__navigation .logo {
+    background: #121212;
+    display: flex;
+    border-radius: 0.5rem;
+    /* padding: 1rem 0 0 1rem; */
+}
+
+.sidebar__navigation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 1.25rem;
+    /* padding: 0 1.25rem 0.625rem 1.25rem; */
+}
+
+.sidebar ul li {
+    padding: 0.625rem 0;
+}
+
+.sidebar ul li:hover {
+    background-color:#193a25;
+    border-radius: 0.625rem;
+}
+
+.sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.sidebar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.text-menu-sidebar {
+    margin-left: 1rem;
+}
+
+.library {
+    background-color: #142219;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0.25rem 0.5rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-top: 0.625rem;
+}
+
+.library .library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button {
+    display: flex;
+    margin-right: 0.625rem;
+    color: #fff;
+    background-color: transparent;
+    border: 0rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 1.25rem 0.625rem;
+}
+
+.library .library__button .fa {
+    font-size: 1.25rem;
+    margin-right: 0.625rem;
+    font-weight: 300;
+    padding-right: 0.5rem;
+}
+
+.library .library__content .fa-plus {
+    margin: 1.5rem 0.625rem;
+    cursor: pointer;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 7.5rem;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.375rem;
+    padding: 0.3125rem 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -0.3125rem;
+    left: 105%;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.25rem;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin: 0.5rem 0rem;
+    padding: 1rem 1.25rem;
+    border-radius: 0.625rem;
+}
+
+.section-playlist .section-playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text {
+    padding-bottom: 0.875rem;
+    color: #fff;
+}
+
+.section-playlist__content .title {
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle {
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.section-playlist__content .section-playlist__button {
+    display: flex;
+    justify-content: center;
+    background-color:#142219;
+    color: #fff;
+    border-radius: 1.25rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 0.625rem;
+    margin-top: 0.75rem;
+    border: 0rem;
+    width: 7.0625rem;
+    cursor: pointer;
+}
+
+.section-playlist__content .section-playlist__button:hover {
+    text-decoration: underline;
+    transform: scale(1.04);
+}
+
+.sidebar .cookies {
+    margin: 1.5625rem 1.25rem;
+}
+
+.sidebar .cookies a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.625rem;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages .languages__button {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 10.625rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1.25rem;
+}
+
+.languages .languages__button:hover {
+    text-decoration: underline;
+    transform: scale(1.04);
+}
+
+.portuguese {
+    margin-left: 0.375rem;
+}

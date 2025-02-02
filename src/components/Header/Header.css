@@ -1,0 +1,111 @@
+/* HEADER */
+.main-container {
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 20rem;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.625rem;
+    border-radius: 0.5rem;
+    background-color: #142219;    
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background: #131313;
+    background-color: rgba(0,0,07);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 22.75rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    background-color: #111;
+    border-radius: 31.25rem;
+    border: 1px solid transparent;
+}
+
+.header__search img {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.625rem;
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 0rem 6.25rem 0 0.75rem;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header__login .subscribe {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login .login {
+    width: 6.25rem;
+    height: 3rem;
+    color: #111;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.header__search:hover {
+    border: 1px solid #fff;
+}
+
+.header__login .subscribe:hover {
+    transform: scale(1.04);
+    color: #fff;
+    text-decoration: underline;
+}
+
+.header__login .login:hover {
+    transform: scale(1.04);
+    text-decoration: underline;
+}
+
+.loading {
+    color: #fff;
+}
